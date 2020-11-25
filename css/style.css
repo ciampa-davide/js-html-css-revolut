@@ -1,6 +1,4 @@
-.container{
-  position:relative;
-}
+
 
 .row{
   margin-top: 25px;
@@ -22,10 +20,14 @@ img{
   height: 35px;
 }
 
+ul.list_relative li{
+  position: relative;
+}
 
-.menu{
+
+.sub-menu{
   position: absolute;
-  display: none;
+  /* display: none; */
   font-size: 12px;
   top:80%;
   left:20%;
@@ -33,7 +35,7 @@ img{
   box-shadow: 5px 10px 8px #888888;
 }
 
-.menu > ul{
+.sub-menu > ul{
   list-style: none;
   margin:0;
   padding: 10px 10px;
@@ -41,35 +43,4 @@ img{
 
 .active{
   display: block;
-}
-
-.who-menu{
-  position: absolute;
-  display: none;
-  font-size: 12px;
-  top:80%;
-  left:20%;
-  border-radius: 10%;
-  box-shadow: 5px 10px 8px #888888;
-}
-
-.who-menu > ul{
-  list-style: none;
-  margin:0;
-  padding: 10px 10px;
-}
-.help-menu{
-  position: absolute;
-  display: none;
-  font-size: 12px;
-  top:80%;
-  left:55%;
-  border-radius: 10%;
-  box-shadow: 5px 10px 8px #888888;
-}
-
-.help-menu > ul{
-  list-style: none;
-  margin:0;
-  padding: 10px 10px;
 }

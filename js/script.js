@@ -1,13 +1,8 @@
 $(document).ready(
   function(){
-    $(".pay").click(
+    $(".sibli_menu").click(
       function(){
-        $(".menu").toggleClass("active");
-      }
-    );
-    $(".who").click(
-      function(){
-        $(".who_menu").toggleClass("active");
+        $(".sub-menu").toggleClass("active");
       }
     );
   }
