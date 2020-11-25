@@ -1,0 +1,75 @@
+.container{
+  position:relative;
+}
+
+.row{
+  margin-top: 25px;
+}
+
+.list-inline > li{
+  padding-right: 25px;
+}
+
+
+.col-lg-6{
+  margin-left: 20%;
+}
+.col-lg-6  li{
+  padding-top: 6px;
+}
+
+img{
+  height: 35px;
+}
+
+
+.menu{
+  position: absolute;
+  display: none;
+  font-size: 12px;
+  top:80%;
+  left:20%;
+  border-radius: 10%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.menu > ul{
+  list-style: none;
+  margin:0;
+  padding: 10px 10px;
+}
+
+.active{
+  display: block;
+}
+
+.who-menu{
+  position: absolute;
+  display: none;
+  font-size: 12px;
+  top:80%;
+  left:20%;
+  border-radius: 10%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.who-menu > ul{
+  list-style: none;
+  margin:0;
+  padding: 10px 10px;
+}
+.help-menu{
+  position: absolute;
+  display: none;
+  font-size: 12px;
+  top:80%;
+  left:55%;
+  border-radius: 10%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.help-menu > ul{
+  list-style: none;
+  margin:0;
+  padding: 10px 10px;
+}
